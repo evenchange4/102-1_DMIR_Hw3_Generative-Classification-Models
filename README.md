@@ -14,3 +14,7 @@ The Homework 3 report from NTU102-1 [DMIR](https://ceiba.ntu.edu.tw/course/99b51
 	- 2. 新增欄位 `index_sort % 30`：`mod(左邊, 30)`
 	- 3. 給予分類標籤 `class`：`=IF((左邊>0)*(左邊<=6),"1","0")` 前六個為 1，剩下二十四個為 0。
 4. 新增欄位 `random_sort`：最後依據這個欄位 `=RAND()` 來做 10-fold classification。
+5. 最後整理資料為 `data/ldpa30_train use.csv`
+	- 剩下 feature `alpha`、`beta_mkt`、`beta_hml`、`beta_smb`、`sigma`
+	- 分類的標簽 `class`
+	- 以及目前的隨機排序依據，作為切割十份用。
