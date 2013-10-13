@@ -8,7 +8,7 @@ The Homework 3 report from NTU102-1 [DMIR](https://ceiba.ntu.edu.tw/course/99b51
 ## Data Pre-process
 
 1. 新增欄位 `index`：原本資料的排序（=sort by week_index + group ）。
-2. 排序與篩選 `week_index` + `week_return1`： ![排序依據]()。
+2. 排序與篩選 `week_index` + `week_return1`： ![Excel 排序依據操作](https://raw.github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models/master/img/preprocess%201%20sort.PNG)。
 3. 定義分類標簽：
 	- 1. 新增欄位 `index_sort`：根據上一個步驟後的排序。
 	- 2. 新增欄位 `index_sort % 30`：`mod(左邊, 30)`
