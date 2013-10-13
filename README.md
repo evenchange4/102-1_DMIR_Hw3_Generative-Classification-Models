@@ -1,6 +1,6 @@
-# Bayesian Regression with Normal-Gamma Prior
+# Generative Classification Models
 
-The Homework 2 report from NTU102-1 [DMIR](https://ceiba.ntu.edu.tw/course/99b512/index.htm) course
+The Homework 3 report from NTU102-1 [DMIR](https://ceiba.ntu.edu.tw/course/99b512/index.htm) course
 
 **by NTU [Michael Hsu](http://michaelhsu.tw/ "blog")**
 
