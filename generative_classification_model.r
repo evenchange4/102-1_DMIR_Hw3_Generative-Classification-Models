@@ -1,9 +1,8 @@
 # setwd('/Users/michaelhsu/code/mini_project')
 setup_data = read.csv('data/ldpa30_train use.csv')
-### further divide into two sets
-bin_list =  paste("bin", 1:10, sep = "")
 
 # split data
+bin_list =  paste("bin", 1:10, sep = "")
 for( i in 1:length(bin_list)){
 	## Assign a value to a name in an environment.
 	assign(bin_list[i], subset(setup_data, new_index > (i-1)*1110 & new_index <= i*1110 ) )
