@@ -37,3 +37,7 @@ example: （可用拖曳方式取得路徑）
 
 ## 結果 (10-fold-validation)
 ![evaluation result](https://raw.github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models/master/img/result.png)
+
+## Source code
+
+[https://github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models](https://github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models)
