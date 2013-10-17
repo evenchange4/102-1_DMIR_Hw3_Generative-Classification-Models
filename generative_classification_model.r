@@ -133,3 +133,13 @@ for( i in 1:length(bin_list)){
 }
 
 print(ten_fold_evaluate)
+
+## calculate mean, sd
+performance_summary_matrix = matrix(rep(0),ncol=4, nrow=2)
+dimnames(performance_summary_matrix) = list(c("mean", "sd"), c("accuracy",'precision', 'recall', 'F-measure'))
+
+for(c in colnames(ten_fold_evaluate)){
+	performance_summary_matrix["mean", c] = mean(ten_fold_evaluate[, c])
+	performance_summary_matrix["sd", c] = sd(ten_fold_evaluate[, c])
+}
+print(performance_summary_matrix)
