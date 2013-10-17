@@ -34,3 +34,6 @@ example: （可用拖曳方式取得路徑）
 ```
 > source("/Users/michaelhsu/Dropbox/15.\ 碩一上課業/02.\ DMIR\ 資料探勘與資訊檢 索/hw3/generative_classification_model.r")
 ```
+
+## 結果
+![evaluation result](https://raw.github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models/master/img/result.png)
