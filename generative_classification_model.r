@@ -133,4 +133,3 @@ for( i in 1:length(bin_list)){
 }
 
 print(ten_fold_evaluate)
-
