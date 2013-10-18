@@ -41,3 +41,7 @@ example: （可用拖曳方式取得路徑）
 ## Source code
 
 [https://github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models](https://github.com/evenchange4/102-1_DMIR_Hw3_Generative-Classification-Models)
+
+## Reference
+- [row bind example](http://www.endmemo.com/program/R/rbind.php)
+- [subset a data set meet a condition](http://www.ats.ucla.edu/stat/r/faq/subset_R.htm)
