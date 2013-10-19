@@ -39,7 +39,7 @@ model_train <- function(bin_train){
 	bin_train_class0$new_index = NULL
 
 	# ?
-	cov = (cov(bin_train_class1) + cov(bin_train_class0)) / (N1+N0)
+	cov = (N1*cov(bin_train_class1) + N0*cov(bin_train_class0)) / (N1+N0)
 	w  = solve(cov) %*% (mean["class1",] - mean["class0",])
 	w0_value = ((-0.5) * t(mean["class1",]) %*% solve(cov) %*% mean["class1",]) + (0.5 * t(mean["class0",]) %*% solve(cov) %*% mean["class0",]) + log(pi["pi", "class1"] / pi["pi", "class0"])
 
